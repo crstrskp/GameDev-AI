@@ -17,7 +17,6 @@ public class BT_Enemy01 : MonoBehaviour
     Node<Context> findTargetInRange = new FindTargetInRange();
 
 
-
     void Awake()
     {
     // layer 1
@@ -33,7 +32,7 @@ public class BT_Enemy01 : MonoBehaviour
         StartCoroutine(Loop());
     }
 
-    IEnumerator Loop()
+    private IEnumerator Loop()
     {
         while (true)
         {
