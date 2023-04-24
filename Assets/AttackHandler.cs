@@ -18,7 +18,7 @@ public class AttackHandler : MonoBehaviour
             var health = hitCollider.GetComponent<Health>();
             if (health != null && health != GetComponentInParent<Health>())
             {
-                health.TakeDamage(m_damage);
+                health.OnAttack(gameObject, new Attack(m_damage));
             }
         }
     }

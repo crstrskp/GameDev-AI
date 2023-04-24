@@ -42,6 +42,18 @@ MonoBehaviour:
   navMeshAgent: {fileID: 7179169582891310990}
   animator: {fileID: 128577151692572514}
   Target: {fileID: 0}
+--- !u!114 &327386641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7179169582891310989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9565120fd0becad448b79b2e5a2ad57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1227819735011530122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75,7 +87,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8262873012044630535, guid: 12256b58fcfe795489f4ba3d94f63c2d, type: 3}
       propertyPath: m_Name
-      value: Unit_Anim_BT (1)
+      value: Unit_Anim_BT
       objectReference: {fileID: 0}
     - target: {fileID: 8262873012044630537, guid: 12256b58fcfe795489f4ba3d94f63c2d, type: 3}
       propertyPath: m_RootOrder
@@ -83,7 +95,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8262873012044630537, guid: 12256b58fcfe795489f4ba3d94f63c2d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8262873012044630537, guid: 12256b58fcfe795489f4ba3d94f63c2d, type: 3}
       propertyPath: m_LocalPosition.y
