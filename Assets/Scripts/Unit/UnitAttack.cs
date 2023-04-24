@@ -25,7 +25,7 @@ public class UnitAttack : MonoBehaviour
         transform.LookAt(target.transform.position);
         
         float dmg = CalculateDamage();
-        target.GetComponent<Health>().AdjustHealth(-dmg);
+        target.GetComponent<Health>().OnAttack(gameObject, new Attack(dmg));
 
         StartCoroutine(AttackDelay(m_attackDelaySec));
     }

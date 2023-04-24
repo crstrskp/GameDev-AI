@@ -9,12 +9,12 @@ public class HealthDisplay : MonoBehaviour
     private void Awake()
     {
         m_health = GetComponent<Health>();
-        m_health.ClientOnHealthChanged += HandleHealthChanged;
+        m_health.HealthChanged += HandleHealthChanged;
     }
 
     private void OnDestroy()
     {
-        m_health.ClientOnHealthChanged -= HandleHealthChanged;
+        m_health.HealthChanged -= HandleHealthChanged;
     }
 
     private void HandleHealthChanged(float currentHealth, float maxHealth) 
